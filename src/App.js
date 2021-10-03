@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
 import Img from './background.jpeg';
-import { FaInstagram } from 'react-icons/fa';
-import { MdKeyboardArrowRight } from 'react-icons/md';
 
 
 class App extends Component{
@@ -17,11 +15,8 @@ class App extends Component{
         <img src = {Img}/>
 
         <p>
-        <MdKeyboardArrowRight/>
         <br/>
-        <MdKeyboardArrowRight/>
         <br/>
-        <MdKeyboardArrowRight/>
         </p>
 
         <div className = "box">
@@ -49,7 +44,6 @@ class App extends Component{
 
         <p2>
           
-          <a href = "https://www.instagram.com/biancasincrediblelife/"> <FaInstagram/> </a>  
           <a href = "https://www.instagram.com/biancasincrediblelife/"> Bianca Toader </a>
 
           <br/>
@@ -60,7 +54,6 @@ class App extends Component{
 
           <br/>
 
-          <a href = "https://www.instagram.com/_theodor.17/"> <FaInstagram/> </a>  
           <a href = "https://www.instagram.com/_theodor.17/"> Theodor Ioan </a>
 
         </p2>
