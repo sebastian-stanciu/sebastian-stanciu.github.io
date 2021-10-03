@@ -12,7 +12,7 @@ class App extends Component{
 
       <div style = {{backgroundColor: "#2f4363"}}>
 
-        <img src = {Img}/>
+        <img src = {Img} alt="background"/>
 
         <p>
         <br/>
